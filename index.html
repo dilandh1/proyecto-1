@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>octava página</title>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" aria-expanded="false" aria-label="Menú de navegación">
+                <div class="hamburger"></div>
+            </div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de mí</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="seccion_principal">
+        <section class="seccion-1">
+            <div class="acerca_de">
+                <h2>Acerca de mí</h2>
+                <p class="parrafo-1">¡Bienvenido a mi página! Aquí aprenderás más sobre mí.</p>
+                <p class="parrafo-2">Me llamo Dilan, nací en Dubaí, soy estudiante de informática y me gusta la programación porque en ella puedo crear cosas nuevas y divertidas.</p>
+            </div>
+            <div>
+                <img src="https://media-bog2-1.cdn.whatsapp.net/v/t61.24694-24/461525741_1288298705637229_8350651202922338612_n.jpg?ccb=11-4&oh=01_Q5AaIK-LNEov2yGViHw_zPxtTEqdEG5VHDqhwNxjwM0t2NUE&oe=67CE0399&_nc_sid=5e03e0&_nc_cat=100" alt="imagen personal" width="300" height="200">
+            </div>
+        </section>
+        <section id="trabajos">
+            <h2>Proyectos</h2>
+            <div class="trabajos-grid">
+                <div class="trabajo">
+                    <img src="https://josefacchin.com/wp-content/uploads/2021/05/crear-un-blog-gratis.png" width="600"  height="300" alt="Proyecto 1">
+                    <h3>Blog</h3>
+                    <p>Diseñé un blog interactivo</p>
+                    <a href="#">Ver más</a>
+                </div>
+                <div class="trabajo">
+                    <img src="https://i.pinimg.com/736x/28/9f/51/289f516d0782a32381cb77c5f2857765.jpg" width="600"  height="300" alt="Proyecto 2">
+                    <h3>Tienda Online de productos para hacer deportes</h3>
+                    <p>Desarrollé una tienda en línea con carrito de compras que permite comprar articulos de deporte y gym.</p>
+                    <a href="#">Ver más</a>
+                </div>
+                <div class="trabajo">
+                    <img src="https://dondoctor.com/wp-content/uploads/2022/02/DATOS-RELEVANTES-DEMOGRAFIA-online-915x498.png" width="600"  height="300" alt="Proyecto 3">
+                    <h3>Citas medicas</h3>
+                    <p>desarrolle un sitio web para generar citas medicas.</p>
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-2">
+            <img src="https://img.freepik.com/foto-gratis/bosque-lado-rio_1048-1904.jpg" alt="imagen de paisajes">
+        </section>
+
+        <section class="seccion-3">
+            <div class="formulario">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="mexico">México</option>
+                        <option value="chile">Chile</option>
+                        <option value="peru">Perú</option>
+                        <option value="Colombia">Colombia</option>
+                    </select>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Redes sociales</h3>
+        <ul>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">WhatsApp</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
